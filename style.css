@@ -1,0 +1,42 @@
+.bakgrund {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    flex-direction: column;
+}
+
+.Trafikljus {
+    width: 200px;
+    height: 560px;
+    background-color: white;
+    margin: auto;
+}
+
+.redbox,
+.yellowbox,
+.greenbox { 
+    margin: 0px;
+    width: 150px;
+    height: 150px;
+    border: 15px solid;
+}
+
+.redbox {
+    background-color: red;
+    border-color: darkred;
+}
+
+.yellowbox {
+    background-color: yellow;
+    border-color: goldenrod;
+}
+
+.greenbox {
+    background-color: green;
+    border-color: darkgreen;
+}
+
+
